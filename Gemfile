@@ -51,6 +51,7 @@ group :development, :test do
   gem 'capybara'
   gem 'debug', platforms: %i[mri windows]
   gem 'devise'
+  gem 'pg'
   gem 'factory_bot_rails'
   gem 'faker'
   gem 'rspec-rails'
