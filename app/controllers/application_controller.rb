@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
       categories_path
       categories_path
     else
-      super 
+      super
     end
   end
 

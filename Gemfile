@@ -4,6 +4,8 @@ ruby '3.3.0'
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 
+gem 'dotenv-rails', groups: %i[development test]
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.1.3'
 
@@ -51,9 +53,9 @@ group :development, :test do
   gem 'capybara'
   gem 'debug', platforms: %i[mri windows]
   gem 'devise'
-  gem 'pg'
   gem 'factory_bot_rails'
   gem 'faker'
+  gem 'pg'
   gem 'rspec-rails'
 end
 
@@ -76,4 +78,3 @@ end
 gem 'rails-controller-testing'
 
 gem 'tailwindcss-rails'
-
