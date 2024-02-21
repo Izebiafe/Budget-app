@@ -2,15 +2,12 @@ class PurchasesController < ApplicationController
   before_action :authenticate_user!
   before_action :set_purchase, only: %i[show edit update destroy]
 
-  # GET /purchases or /purchases.json
   def index
     @purchases = Purchase.all
   end
 
-  # GET /purchases/1 or /purchases/1.json
   def show; end
 
-  # GET /purchases/new
   def new
     @attributes = []
     @purchase = Purchase.new
@@ -19,7 +16,6 @@ class PurchasesController < ApplicationController
     @attributes << @categories
   end
 
-  # GET /purchases/1/edit
   def edit
     @attributes = []
     @attributes << @purchase
@@ -27,7 +23,6 @@ class PurchasesController < ApplicationController
     @attributes << @categories
   end
 
-  # POST /purchases or /purchases.json
   def create
     @attributes = []
     @purchase = Purchase.new(purchase_params)
@@ -52,7 +47,6 @@ class PurchasesController < ApplicationController
     end
   end
 
-  # PATCH/PUT /purchases/1 or /purchases/1.json
   def update
     respond_to do |format|
       if @purchase.update(purchase_params)
@@ -65,7 +59,6 @@ class PurchasesController < ApplicationController
     end
   end
 
-  # DELETE /purchases/1 or /purchases/1.json
   def destroy
     @purchase.destroy
 
@@ -77,12 +70,10 @@ class PurchasesController < ApplicationController
 
   private
 
-  # Use callbacks to share common setup or constraints between actions.
   def set_purchase
     @purchase = Purchase.find(params[:id])
   end
 
-  # Only allow a list of trusted parameters through.
   def purchase_params
     params.require(:purchase).permit(:name, :amount)
   end
