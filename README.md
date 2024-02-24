@@ -61,7 +61,7 @@ This Budget App is a user-friendly web app that empowers individuals to take con
 
 ## 🚀 Live Demo & Presentation <a name="live-demo"></a>
 
-- [Live Demo Link](https://budget-app-stqp.onrender.com)
+- [Live Demo Link](https://budget-app-kdmp.onrender.com)
 - [Video presentation](https://drive.google.com/file/d/12L3Cbr-AQqXLpPbJ8xi-hcw6PMuangFW/view?usp=sharing)
 
 
