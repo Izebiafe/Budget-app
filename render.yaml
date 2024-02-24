@@ -1,12 +1,12 @@
 databases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
+  - name: Izebiafe
+    databaseName: izebiafe
+    user: izebiafe
     plan: free
 
 services:
   - type: web
-    name: mysite
+    name: Budget-app
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
@@ -15,8 +15,8 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: mysite
-          property: connectionString
+        name: Izebiafe
+        property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
       - key: WEB_CONCURRENCY

@@ -60,9 +60,8 @@ This Budget App is a user-friendly web app that empowers individuals to take con
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo & Presentation <a name="live-demo"></a>
-
-- [Live Demo Link](https://budget-app-dr4e.onrender.com)
-<!--- [Video presentation]https://drive.google.com/file/d/12L3Cbr-AQqXLpPbJ8xi-hcw6PMuangFW/view?usp=sharing -->
+- [Live Demo Link](https://budget-app-g0ik.onrender.com)
+- [Video presentation](https://drive.google.com/file/d/12L3Cbr-AQqXLpPbJ8xi-hcw6PMuangFW/view?usp=sharing)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,7 +120,7 @@ You can deploy this project using your own deployment service like `Render`.
 👤 **Afimia Fidelis**
 
 - GitHub: [@Izebiafe](https://github.com/Izebiafe)
-- LinkedIn: [ticoniq](https://linkedin.com/in/Izebiafe)
+- LinkedIn: [izebiafe](https://linkedin.com/in/Izebiafe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +155,7 @@ If you like this project consider adding a ⭐️
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microverse.
-- Original design idea by: Gregoire Vella on Behance.
+- Original design idea by: Gregoire Vella(https://www.behance.net/gregoirevella) on Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
