@@ -156,7 +156,7 @@ If you like this project consider adding a ⭐️
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microverse.
-- Original design idea by: Gregoire Vella on Behance.
+- Original design idea by: Gregoire Vella(https://www.behance.net/gregoirevella) on Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
